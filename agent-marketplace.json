@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "personal-work-assistant",
+  "repository": "Abby263/gen-ai-assistant",
+  "catalog": "candidate",
+  "availability": "request_integration",
+  "name": "Personal Work Assistant",
+  "category": "Productivity",
+  "description": "Organize requests across messages, schedules, and document queries.",
+  "request": "An authorized user request and scoped workspace context.",
+  "response": "A summary, proposed action, or next step.",
+  "integration": {
+    "operation": "Produce a read-only summary from approved sources.",
+    "readiness": "Review service permissions and isolate connectors that send messages or change calendars."
+  }
+}
